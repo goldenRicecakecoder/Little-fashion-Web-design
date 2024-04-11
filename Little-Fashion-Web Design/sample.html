@@ -1,0 +1,351 @@
+<!-- @format -->
+
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./sample.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<nav>
+			<ul class="sidebar">
+				<li onclick="closeIcon()">
+					<a href="#"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24"
+							viewBox="0 -960 960 960"
+							width="24"
+						>
+							<path
+								d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+							/></svg
+					></a>
+				</li>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">about</a>
+				</li>
+				<li>
+					<a href="#">blog</a>
+				</li>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Home</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="#">
+						<h4 style="color: black">
+							<span style="color: #ff4f0f">Little</span>
+							Fashion
+						</h4></a
+					>
+				</li>
+
+				<li class="hideOnMobile" id="hideOn">
+					<a style="color: #ff4f0f" href="#">Home</a>
+				</li>
+				<li class="hideOnMobile" id="hideOn">
+					<a href="#">Story</a>
+				</li>
+				<li class="hideOnMobile" id="hideOn">
+					<a href="#">Products</a>
+				</li>
+				<li class="hideOnMobile" id="hideOn">
+					<a href="#">FAQs</a>
+				</li>
+				<li class="hideOnMobile" id="hideOn">
+					<a href="#">Contact</a>
+				</li>
+
+				<li class="hideOnMobile">
+					<a href="#"
+						><img
+							class="navicon"
+							src="./img-icons/profile.png"
+							style="width: 24px; height: 24px"
+					/></a>
+				</li>
+				<li class="hideOnMobile">
+					<a href="#">
+						<img
+							class="navicon"
+							src="./img-icons/shopping-bag_3916673.png"
+							style="width: 24px; height: 24px"
+						/>
+					</a>
+				</li>
+				<li class="menuButton" onclick="showSidebar()">
+					<a href="#"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="26"
+							viewBox="0 -960 960 960"
+							width="26"
+						>
+							<path
+								d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+							/></svg
+					></a>
+				</li>
+			</ul>
+		</nav>
+		<!-- ------------Carosul component-------------- -->
+		<!-- <div class="carosul-inner">
+			<div class="slider">
+				<div class="slides">
+					<input type="radio" name="radio-btn" id="radio1" />
+					<input type="radio" name="radio-btn" id="radio2" />
+					<input type="radio" name="radio-btn" id="radio3" />
+
+					<div class="slide first">
+						<img
+							src="./carosul-img/medium-shot-business-women-high-five.jpeg"
+							alt=""
+						/>
+						<div class="carousel-caption">
+							<h1 class="h">Cool Fashion</h1>
+							<p>
+								Little fashion template comes with total 8 HTML<br />
+								pages provided by Tooplate website .
+							</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img
+							src="./carosul-img/team-meeting-renewable-energy-project.jpeg"
+							alt=""
+						/>
+						<div class="carousel-caption">
+							<h1 class="h">New Design</h1>
+							<p>
+								Please share this Little Fashion template to your friends. Thank
+								you for supporting us.
+							</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img
+							src="./carosul-img/two-business-partners-working-together-office-computer.jpeg"
+							alt=""
+						/>
+						<div class="carousel-caption">
+							<h1 class="h">Talk to us</h1>
+							<p class="lead text-white mt-lg-3 mb-lg-5">
+								Tooplate is one of the best HTML CSS template websites for
+								everyone.
+							</p>
+						</div>
+					</div>
+					<div class="navagation-auto">
+						<div class="auto-btn1"></div>
+						<div class="auto-btn2"></div>
+						<div class="auto-btn3"></div>
+					</div>
+				</div>
+
+				<br />
+				<div class="navigation-manual">
+					<label for="radio1" class="manual-btn"></label>
+					<label for="radio2" class="manual-btn"></label>
+					<label for="radio3" class="manual-btn"></label>
+				</div>
+			</div>
+			<div class="head">
+				<h1 style="color: black">
+					Get started with <span style="color: #ff4f0f">Little</span> Fashion
+				</h1>
+			</div>
+		</div> -->
+		<!-- <div class="outer-pill"> -->
+			<!-- <div class="inner" id="starti">
+			
+				<ul
+					class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center"
+					id="pills-tab"
+					role="tablist"
+				>
+					<li class="nav-item" role="presentation ">
+						<button
+							style="color: black"
+							class="nav-link active"
+							id="pills-home-tab"
+							data-bs-toggle="pill"
+							data-bs-target="#pills-home"
+							type="button"
+							role="tab"
+							aria-controls="pills-home"
+							aria-selected="true"
+						>
+							Introduction
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button
+							style="color: black"
+							class="nav-link"
+							id="pills-youtube-tab"
+							data-bs-toggle="pill"
+							data-bs-target="#pills-youtube"
+							type="button"
+							role="tab"
+							aria-controls="pills-youtube"
+							aria-selected="false"
+						>
+							How we work?
+						</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button
+							style="color: black"
+							class="nav-link"
+							id="pills-skill-tab"
+							data-bs-toggle="pill"
+							data-bs-target="#pills-skill"
+							type="button"
+							role="tab"
+							aria-controls="pills-skill"
+							aria-selected="false"
+						>
+							Capabilites
+						</button>
+					</li>
+				</ul>
+			</div> -->
+
+			<div class="tabs">
+				<div class="tabs_sidebar">
+				<button class="tabs-button tabs_button--active" data-for-tab="1">Tab #1</button>
+				<button class="tabs-button" data-for-tab="2">Tab #2</button>
+				<button class="tabs-button" data-for-tab="3">Tab #3</button>
+			</div>
+			<div class="tab-content tab-content--active " data-tab="1">
+				<div>
+					<h4 class=>Life at Studio</h4>
+										<p>Over three years in business, We've had the chance to work on a variety of projects, with companies</p>
+										<p>Custom work is branding, web design, UI/UX design</p>
+										<div class="mt-2 mt-lg-auto"><a href="pages/contact.php" class="custom-link mb-2">Work with us <i class="bi-arrow-right ms-2"></i></a></div>
+									</div>
+				
+				
+				</div>
+			
+
+			<div class="tab-content" data-tab="2">
+			<div>
+					<h4 class=>Life at Studio</h4>
+										<p>Over three years in business, We've had the chance to work on a variety of projects, with companies</p>
+										<p>Custom work is branding, web design, UI/UX design</p>
+										<div class="mt-2 mt-lg-auto"><a href="pages/contact.php" class="custom-link mb-2">Work with us <i class="bi-arrow-right ms-2"></i></a></div>
+									</div>
+									
+								<div>
+									
+								</div>
+				</div>
+			</div>
+			<div class="tab-content" data-tab="3">
+				<!-- <div class><img src="./img/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid" alt="website template image" style="width:400px"></div> -->
+								<div class="col-lg-5 col-12">
+									<div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+										<h4 class="mb-3">What can help you?</h4>
+										<p>Over three years in business, We've had the chance on projects</p>
+										<div class="skill-thumb mt-3"><strong>Branding</strong><span class="float-end">90%</span>
+											<div class="progress">
+												<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+											</div>
+											<strong>Design &amp; Stragety</strong><span class="float-end">70%</span>
+											<div class="progress">
+												<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;"></div>
+											</div>
+											<strong>Online Platform</strong><span class="float-end">80%</span>
+											<div class="progress">
+												<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;"></div>
+											</div>
+										</div>
+										<div class="mt-2 mt-lg-auto"><a href="pages/products.php" class="custom-link mb-2">Explore products <i class="bi-arrow-right ms-2"></i></a></div>
+									</div>
+
+			</div>
+			<!-- <div class="img-d"></div>
+			<div class="conten-d"></div> -->
+		</div>
+	</div>
+	</div>
+
+		<script>
+
+function setupTab(){
+	document.querySelectorAll(".tabs-button").forEach(button =>{
+button.addEventListener("click", () => {
+	const sideBar=button.parentElement;
+	const tabsContainer=sideBar.parentElement;
+	const tabsNumber=button.dataset.forTab;
+	const tabToActive=tabsContainer.querySelector(`.tab-content[data-tab="${tabsNumber}"]`);
+console.log(sideBar);
+console.log(tabsContainer);
+console.log(tabsNumber);
+console.log(tabToActive);
+
+
+sideBar.querySelectorAll(".tabs-button").forEach(button=>{
+	button.classList.remove("tabs_button--active");
+})
+tabsContainer.querySelectorAll(".tab-content").forEach(tab=>{
+	tab.classList.remove("tab-content--active");
+})
+button.classList.add("tabs-button--active");
+tabToActive.classList.remove("tab-content--active")
+
+});
+
+	})
+}
+
+document.addEventListener("DOMContentLoaded", ()=>{
+	setupTab();
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			function showSidebar() {
+				const sidebar = document.querySelector(".sidebar");
+				sidebar.style.display = "flex";
+			}
+			function closeIcon() {
+				const sidebar = document.querySelector(".sidebar");
+				sidebar.style.display = "none";
+			}
+		</script>
+	</body>
+</html>

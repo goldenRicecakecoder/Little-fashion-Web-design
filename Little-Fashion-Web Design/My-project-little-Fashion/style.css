@@ -1,0 +1,53 @@
+/** @format */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+
+	font-size: 16px;
+	position: relative;
+	height: 50px;
+
+	font-family: "Inter", sans-serif;
+	/* background-color: #f6f6f7; */
+	position: relative;
+	border: 2px solid black;
+}
+a {
+	color: #a5a6a8;
+	cursor: pointer;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff4f0f;
+}
+.mydiv {
+	margin-top: 20px;
+	display: flex;
+	gap: 50px;
+	border: 2px solid black;
+	margin-right: 250px;
+}
+
+.fash {
+	border: 2px solid black;
+	margin-right: 140px;
+
+	margin-top: 20px;
+}
+
+img.dimg1,
+img.dimg2 {
+	height: 20px;
+	margin-top: 20px;
+	row-gap: 50px;
+}
+.dimg2 {
+	margin-left: 40px;
+}
